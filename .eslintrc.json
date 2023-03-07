@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "eslint: recommended",
+    "eslint: next/core-web-vitals"
+  ]
+  // "rules": 
+  //   "semi": ["error", "never"],
+  //   "quotes": ["error", "single"]
+}
