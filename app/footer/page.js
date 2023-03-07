@@ -10,7 +10,7 @@ export default function Footer() {
         <h1 className={styles.linkTitle}>
           <Link href="/contact" passHref>
             <span className={styles.linkText}>WORK WITH ME</span>
-            <Image src="/images/link.png" width={40} height={40} alt="" />
+            {/* <Image src="" width={40} height={40} alt="" /> */}
           </Link>
         </h1>
       </div>

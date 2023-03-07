@@ -1,17 +1,10 @@
 import styles from '../../styles/Hero.module.css'
 import Image from 'next/image'
 import photo from '../../public/photo.jpg'
-import Head from 'next/head'
 
 export default function Hero() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Portfolio of Jenny Nguyen Öberg</title>
-        <meta name="description" content="Portfolio of Jenny Nguyen Öberg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <div className={styles.card}>
         <h1 className={styles.title}>
           <span className={styles.brand}>JENNY NGUYEN ÖBERG</span> DESIGNER & FRONTEND DEVELOPER
