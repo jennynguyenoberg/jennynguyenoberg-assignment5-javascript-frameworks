@@ -1,0 +1,19 @@
+.title {
+  color: blue;
+}
+
+.subtitle {
+  color: brown;
+}
+
+.para {
+  color: bisque;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: rgb(41, 104, 51);
+}
