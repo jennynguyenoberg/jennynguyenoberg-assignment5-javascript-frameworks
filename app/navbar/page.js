@@ -12,7 +12,7 @@ export default function Navbar() {
       <ul className={styles.list}>
         <li className={styles.listItem}>Designer & Developer</li>
         <li className={styles.listItem}>
-          <Link href='/portfolio'>Projects</Link>
+          <Link href='/projects'>Projects</Link>
         </li>
         <li className={styles.listItem}>
           <Link href='/about'>About</Link>
@@ -28,7 +28,7 @@ export default function Navbar() {
       </div>
       <ul onClick={()=>setOpen(false)} className={styles.menu} style={{ right: open ? "0px" : "-50vw" }}>
         <li className={styles.menuItem}>
-          <Link href='/portfolio'>Projects</Link>
+          <Link href='/projects'>Projects</Link>
         </li>
         <li className={styles.menuItem}>
           <Link href='/about'>About</Link>

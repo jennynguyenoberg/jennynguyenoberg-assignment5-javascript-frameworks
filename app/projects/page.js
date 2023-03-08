@@ -3,15 +3,15 @@ import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
 import photo from '../../public/photo.jpg'
 
-export default function Portfolio() {
+export default function Projects() {
   return (
     <div>
-      <h1 className={styles.headingPortfolio}>Portfolio</h1>
+      <h1 className={styles.heading}>Projects</h1>
       <div className={styles.link}>
-        <Link href="/portfolio/project1" >
+        <Link href="/projects/project1" >
           <Image
             src={photo}
-            alt="portfolio"
+            alt="project"
           />
           <div>
             Project 1: Assignment 1
@@ -19,10 +19,10 @@ export default function Portfolio() {
         </Link>
       </div>
       <div className={styles.link}>
-        <Link href="/portfolio/project2" >
+        <Link href="/projects/project2" >
           <Image
             src={photo}
-            alt="portfolio"
+            alt="project"
           />
           <div>
             Project 2: Assignment 2
@@ -30,10 +30,10 @@ export default function Portfolio() {
         </Link>
       </div>
       <div className={styles.link}>
-        <Link href="/portfolio/project3" >
+        <Link href="/projects/project3" >
           <Image
             src={photo}
-            alt="portfolio"
+            alt="project"
           />
           <div>
             Project 3: Assignment 3
