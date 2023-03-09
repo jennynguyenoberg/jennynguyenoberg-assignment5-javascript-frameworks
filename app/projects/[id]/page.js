@@ -5,7 +5,7 @@ export default function PorfolioProject({ params }) {
   if (params.id === 'project1') {
     return (
       <div>
-        <h1>Porfolio Project – id# {params.id}</h1>
+        <h1>Portfolio Project – {params.id}</h1>
         <Image
           src={photo}
           alt="portfolio"
@@ -18,7 +18,11 @@ export default function PorfolioProject({ params }) {
   }
   return (
     <div>
-      <h1>Porfolio Project (alt2) – id# {params.id}</h1>
+      <h1>Portfolio Project – {params.id}</h1>
+      <Image
+          src={photo}
+          alt="portfolio"
+        />
       <div>
         Project: {params.id}
       </div>

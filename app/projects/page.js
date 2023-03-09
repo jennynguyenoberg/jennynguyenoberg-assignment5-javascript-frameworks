@@ -8,7 +8,7 @@ export default function Projects() {
     <div>
       <h1 className={styles.heading}>Projects</h1>
       <div className={styles.link}>
-        <Link href="/projects/project1" >
+        <Link href="/projects/assignment1" >
           <Image
             src={photo}
             alt="project"
@@ -19,7 +19,7 @@ export default function Projects() {
         </Link>
       </div>
       <div className={styles.link}>
-        <Link href="/projects/project2" >
+        <Link href="/projects/assignment2" >
           <Image
             src={photo}
             alt="project"
@@ -30,7 +30,7 @@ export default function Projects() {
         </Link>
       </div>
       <div className={styles.link}>
-        <Link href="/projects/project3" >
+        <Link href="/projects/assignment3" >
           <Image
             src={photo}
             alt="project"
