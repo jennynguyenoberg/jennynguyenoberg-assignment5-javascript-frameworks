@@ -9,14 +9,16 @@ export const metadata = {
 }
 
 export default function Layout({ children }) {
-  return <>
-    <div>
-      {/* <Head>
+  return (
+    <html lang="en">
+      <head>
         <link rel="shortcut icon" href="/favicon.ico" />
-      </Head> */}
-      <Navbar />
-      {children}
-      <Footer />
-    </div>
-  </>
+      </head>
+      <body>
+        <Navbar />
+        {children}
+        <Footer/>
+      </body>
+    </html>   
+  )
 }
