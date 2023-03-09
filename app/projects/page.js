@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Projects.module.css'
 import photo from '../../public/photo.jpg'
 
 export default function Projects() {
