@@ -10,7 +10,7 @@ export default function Navbar() {
     <div className={styles.container}>
       <Link href='/'>Jenny Nguyen Öberg</Link>
       <ul className={styles.list}>
-        <li className={styles.listItem}>Designer & Developer</li>
+        <li className={styles.listItemDesc}>Designer & Developer</li>
         <li className={styles.listItem}>
           <Link href='/projects'>Projects</Link>
         </li>

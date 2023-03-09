@@ -19,6 +19,14 @@
   text-decoration: none;
 }
 
+.listItemDesc {
+  display: inline;
+  margin-right: 30px;
+  font-size: 14px;
+  color: lightgray;
+  text-decoration: none;
+}
+
 .hamburger {
   display: none;
 }

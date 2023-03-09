@@ -19,7 +19,7 @@ export default function Footer() {
           12 ADAM STREET NYC <br /> USA
         </div>
         <div className={styles.cardItem}>
-          hello@jennynguyenoberg.com <br /> 073 316 05 19
+          hello@jennynguyenoberg.com <br /> +46733160519
         </div>
       </div>
       <div className={styles.cardS}>
@@ -28,9 +28,9 @@ export default function Footer() {
           <br /> __FB __IN __BE __TW
         </div>
         <div className={styles.cardItem}>
-          © 2023 JENNY
+          © 2023 Jenny Nguyen Öberg
           <br />
-          ALL RIGHTS REVERVED.
+          All Rights Reserved.
         </div>
       </div>
     </div>

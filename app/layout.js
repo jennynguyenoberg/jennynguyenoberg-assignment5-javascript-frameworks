@@ -1,6 +1,6 @@
 import Footer from './components/footer'
 import Navbar from './components/navbar'
-import Head from 'next/head'
+// import Head from 'next/head'
 import '../styles/globals.css'
 
 export const metadata = {
@@ -9,14 +9,14 @@ export const metadata = {
 }
 
 export default function Layout({ children }) {
-  return (
+  return <>
     <div>
-      <Head>
+      {/* <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
-      </Head>
+      </Head> */}
       <Navbar />
       {children}
       <Footer />
     </div>
-  )
+  </>
 }
