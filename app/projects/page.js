@@ -3,9 +3,9 @@ import Link from 'next/link'
 import styles from '../../styles/Projects.module.css'
 import photo from '../../public/photo.jpg'
 
-export default function Projects() {
+export default function AllProjects() {
   return (
-    <div>
+    <div className={styles.container}>
       <h1 className={styles.heading}>Projects</h1>
       <div className={styles.link}>
         <Link href="/projects/assignment1" >
@@ -13,7 +13,7 @@ export default function Projects() {
             src={photo}
             alt="project"
           />
-          <div>
+          <div className={styles.title}>
             Project 1: Assignment 1
           </div>
         </Link>
@@ -24,7 +24,7 @@ export default function Projects() {
             src={photo}
             alt="project"
           />
-          <div>
+          <div className={styles.title}>
             Project 2: Assignment 2
           </div>
         </Link>
@@ -35,7 +35,7 @@ export default function Projects() {
             src={photo}
             alt="project"
           />
-          <div>
+          <div className={styles.title}>
             Project 3: Assignment 3
           </div>
         </Link>
