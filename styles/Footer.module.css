@@ -1,18 +1,15 @@
 .container {
-  height: 250px;
-  border-top: 3px solid black;
+  height: 100px;
+  border-top: 1px solid #E2E8F0;
   display: flex;
   justify-content: space-around;
-  font-size: 2rem;
-  padding: 50px;
+  padding: 23px;
   align-items: center;
+  line-height: 1em;
 }
 
 .title {
-  font-weight: 400;
-  color: white;
-  background-color: green;
-  padding: 5px;
+  padding: 0px;
   width: max-content;
 }
 
@@ -25,35 +22,30 @@
   align-items: center;
 }
 
-.linkText {
-  margin-right: 20px;
-}
-
-.cardL {
-  flex: 2;
-}
-
-.cardS {
+.columnLeft {
   flex: 1;
 }
 
-.cardItem {
-  margin-bottom: 20px;
+.columnRight {
+  flex: 1;
 }
 
-@media screen and (max-width: 480px) {
+.socials {
+  text-align: right;
+}
+
+.navLink:hover {
+  color: #482ff7;
+}
+
+@media screen and (max-width: 768px) {
   .container {
     height: auto;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
-  .title,
-  .linkTitle {
-    font-size: 30px;
-  }
-
-  .cardItem {
+  .socials,
+  .copyright {
     text-align: center;
-    font-size: 15px;
   }
 }

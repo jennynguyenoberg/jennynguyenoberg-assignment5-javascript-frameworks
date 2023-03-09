@@ -5,32 +5,26 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <div className={styles.container}>
-      <div className={styles.cardL}>
-        <h1 className={styles.title}>JENNY NGUYEN ÖBERG</h1>
-        <h1 className={styles.linkTitle}>
-          <Link href="/contact" passHref>
-            <span className={styles.linkText}>WORK WITH ME</span>
-            {/* <Image src="" width={40} height={40} alt="" /> */}
+      <div className={styles.columnLeft}>
+        <div className={styles.copyright}>
+          © 2023 <br />
+          Site built and designed by Jenny Nguyen Öberg.<br />
+          All rights reserved.
+        </div>
+      </div>
+      <div className={styles.columnRight}>
+        <div className={styles.socials}>
+          <Link href='https://github.com/jennynguyenoberg' rel="noreferrer">
+            <span className={styles.navLink}>Github</span>
           </Link>
-        </h1>
-      </div>
-      <div className={styles.cardS}>
-        <div className={styles.cardItem}>
-          12 ADAM STREET NYC <br /> USA
-        </div>
-        <div className={styles.cardItem}>
-          hello@jennynguyenoberg.com <br /> +46733160519
-        </div>
-      </div>
-      <div className={styles.cardS}>
-        <div className={styles.cardItem}>
-          FOLLOW ME:
-          <br /> __FB __IN __BE __TW
-        </div>
-        <div className={styles.cardItem}>
-          © 2023 Jenny Nguyen Öberg
           <br />
-          All Rights Reserved.
+          <Link href='https://linkedin.com/in/jennynguyenoberg' rel="noreferrer">
+            <span className={styles.navLink}>LinkedIn</span>
+          </Link>
+          <br />
+          <Link href='https://www.instagram.com/studio.noberg/' rel="noreferrer">
+            <span className={styles.navLink}>Instagram</span>
+          </Link>
         </div>
       </div>
     </div>
