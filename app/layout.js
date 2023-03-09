@@ -1,5 +1,5 @@
-import Footer from './footer/page.js'
-import Navbar from './navbar/page.js'
+import Footer from './components/footer'
+import Navbar from './components/navbar'
 import Head from 'next/head'
 import '../styles/globals.css'
 
