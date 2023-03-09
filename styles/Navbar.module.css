@@ -34,18 +34,16 @@
 }
 
 .navLink {
-  font-size: 2rem;
   font-weight: 400;
   color: #475569;
-  /* text-transform: uppercase; */
 }
 
 .navLink:hover {
   color: #482ff7;
 }
 
-.navLogo {
-  font-size: 2.1rem;
+.navLogo,
+.navDesc {
   font-weight: 500;
   color: #482ff7;
 }
@@ -54,15 +52,18 @@
   .navMenu {
     position: fixed;
     left: -100%;
-    top: 5rem;
+    top: 3.13rem;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
-    /* border-radius: 10px; */
-    text-align: center;
+    text-align: right;
     transition: 0.3s;
     box-shadow:
       0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .navDesc {
+    display: none;
   }
 
   .navMenu.active {

@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link href='/'>
           <span className={styles.navLogo}>Jenny Nguyen Öberg</span>
         </Link>
-        <span className={styles.navLogo}>Designer & Developer</span>
+        <span className={styles.navDesc}>Designer & Developer</span>
         <ul className={isOpen === false ?
           styles.navMenu : styles.navMenu + ' ' + styles.active}>
           <li className={styles.navItem}>
