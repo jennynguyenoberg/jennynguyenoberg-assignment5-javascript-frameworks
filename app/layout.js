@@ -4,7 +4,7 @@ import '../styles/globals.css'
 import styles from '../styles/Home.module.css'
 
 export const metadata = {
-  title: 'Portfolio of Jenny Nguyen Öberg',
+  title: 'Jenny Nguyen Öberg',
   description: 'Portfolio of Jenny Nguyen Öberg',
 }
 
