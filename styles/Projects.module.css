@@ -57,8 +57,6 @@
 .contentRole,
 .contentClient,
 .contentArrow {
-  /* max-width: 1180px; */
-  /* margin: auto; */
   flex: 25%;
 }
 
@@ -73,16 +71,6 @@
   flex: 25%;
 }
 
-/* .container {
-  background-color: #8B80E5;
-  margin-top: -70px;
-  margin-bottom: -100px;
-  height: 100vh;
-}
-
 @media screen and (max-width: 768px) {
-  .container {
-    margin-top: -74px;
-    margin-bottom: -241px;
-  }
-} */
+
+}
