@@ -8,7 +8,7 @@ export default function Navbar() {
   const openMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className={styles.header}>
+    <div className={styles.container}>
       <nav className={styles.navbar}>
         <Link href='/'>
           <span className={styles.navLogo}>Jenny Nguyen Öberg</span>
@@ -18,17 +18,17 @@ export default function Navbar() {
           styles.navMenu : styles.navMenu + ' ' + styles.active}>
           <li className={styles.navItem}>
             <Link href='/projects'>
-              <span className={styles.navLink}>Projects</span>
+              <span className={styles.navLink}>Projects &#8600;</span>
             </Link>
           </li>
           <li className={styles.navItem}>
             <Link href='/about'>
-              <span className={styles.navLink}>About</span>
+              <span className={styles.navLink}>About &#8600;</span>
             </Link>
           </li>
           <li className={styles.navItem}>
             <Link href='/contact'>
-              <span className={styles.navLink}>Get in touch</span>
+              <span className={styles.navLink}>Get in touch &#8600;</span>
             </Link>
           </li>
         </ul>
@@ -40,6 +40,6 @@ export default function Navbar() {
           <span className={styles.bar}></span>
         </button>
       </nav>
-    </header>
+    </div>
   );
 }

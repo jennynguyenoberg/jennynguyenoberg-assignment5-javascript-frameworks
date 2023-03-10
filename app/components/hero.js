@@ -1,24 +1,31 @@
 import styles from '../../styles/Hero.module.css'
-import Image from 'next/image'
-import photo from '../../public/photo.jpg'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
     <div className={styles.container}>
-      <div className={styles.card}>
+      <div className={styles.header}>
         <h1 className={styles.title}>
-          <span className={styles.brand}>JENNY NGUYEN ÖBERG</span> DESIGNER & FRONTEND DEVELOPER
+          Je<em className={styles.italic}>nny</em> Ng<em className={styles.italic}>uyen</em> Ö<em className={styles.italic}>be</em>rg
         </h1>
-        <p className={styles.description}>Designer & Web Developer based in beautiful Stockholm, Sweden. Creative at heart with a passion for the details.</p>
-        <button className={styles.button}>Discover</button>
       </div>
-      <div className={styles.card}>
-        <Image
-          src={photo}
-          width={700}
-          height={700}
-          alt=""
-        />
+      <div className={styles.columnContainer}>
+        <div className={styles.column1}>
+          <p className={styles.descriptionText}>
+            Designer & Web Developer based in beautiful Stockholm, Sweden.
+            Creative at heart with a passion for the details.
+          </p>
+        </div>
+        <div className={styles.column2}>
+          <div className={styles.category}>
+            <Link href='/'>Design</Link>
+          </div>
+        </div>
+        <div className={styles.column3}>
+          <div className={styles.category}>
+            <Link href='/'>&#60;&#47;Code&#62;</Link>
+          </div>
+        </div>
       </div>
     </div>
   )

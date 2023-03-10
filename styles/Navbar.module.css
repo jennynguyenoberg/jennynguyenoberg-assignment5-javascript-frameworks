@@ -1,5 +1,5 @@
-.header {
-  border-bottom: 1px solid #E2E8F0;
+.container {
+  /* border-bottom: 1px solid #242321; */
 }
 
 .navbar {
@@ -13,6 +13,10 @@
   display: none;
 }
 
+.navDesc {
+  margin-right: 102px;
+}
+
 .bar {
   display: block;
   width: 35px;
@@ -20,7 +24,7 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #222222;
+  background-color: #242321;
 }
 
 .navMenu {
@@ -33,16 +37,16 @@
   margin-left: 5rem;
 }
 
-.navLink:hover,
-.navLogo:hover {
-  color: #482ff7;
+.navLink:hover {
+  text-decoration: 1px underline;
+  text-underline-offset: 3px;
 }
 
 @media only screen and (max-width: 768px) {
   .navMenu {
     position: fixed;
     left: -100%;
-    top: 3.42rem;
+    top: 3.35rem;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
