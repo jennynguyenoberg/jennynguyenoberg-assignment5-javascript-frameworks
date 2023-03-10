@@ -1,21 +1,17 @@
-.content {
-  padding: 200px;
-  padding-right: 550px;
+.container {
+  padding: 118px;
 }
-/* .container {
-  background-color: #ffffff;
-  margin-top: -70px;
-  margin-bottom: -100px;
-  height: 100vh;
+
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 120px;
 }
 
 .content {
-  padding: 200px;
-  padding-right: 550px;
-}
-
-.title {
-  font-weight: lighter;
+  flex: 1;
 }
 
 .paragraph {
@@ -27,9 +23,53 @@
   text-underline-offset: 3px;
 }
 
-@media only screen and (max-width: 768px) {
-  .container {
-    margin-top: -74px;
-    margin-bottom: -269px;
-  }
-} */
+/* ------- Resume section ------- */
+
+.subTitle {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  padding-bottom: 25px;
+}
+
+.moreProjects {
+  padding-top: 135px;
+}
+
+.bar {
+  display: flex;
+  height: 1px;
+  margin: 10px -20px;
+  background-color: #242321;
+}
+
+.contentProject,
+.contentTitle {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 13px;
+}
+
+.contentYear,
+.contentRole,
+.contentClient,
+.contentArrow {
+  flex: 25%;
+}
+
+.contentArrow {
+  text-align: right;
+}
+
+.contentDesc {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .15px;
+  flex: 25%;
+}
+
+@media screen and (max-width: 768px) {
+
+}

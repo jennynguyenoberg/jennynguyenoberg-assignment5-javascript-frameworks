@@ -1,53 +1,72 @@
 .container {
-  padding: 180px;
+  padding: 118px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* position: relative; */
-  overflow: hidden;
-  /* padding-top: 70px; */
-  font-size: 3rem;
-  background-color: #B7E0E6;
-  margin-top: -70px;
-  margin-bottom: -92px;
-  /* height: 100vh;  */
+  align-items: left;
+  justify-content: left;
+  gap: 10px;
 }
 
-.title {
-  font-size: 50px;
+.pageTitle {
+  padding-bottom: 50px;
+}
+
+.heading {
+  font-size: 60px;
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
+  letter-spacing: -1px;
   font-style: italic;
 }
 
+/* ------- Form section ------- */
+
 .form {
-  width: 500px;
-  height: 500px;
-  padding: 50px;
+  width: 50%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-.inputSmall {
-  flex: 1;
-  height: 50px;
-  padding-left: 10px;
-}
-
-.inputSmall:first-child {
-  margin-right: 5px;
-}
-
+.inputSmall,
 .inputLarge {
-  width: 100%;
   height: 50px;
-  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid #242321;
+  margin-bottom: 15px;
+  outline: none;
 }
 
 .textArea {
-  width: 100%;
-  padding-left: 10px;
+  padding-top:15px;
+  height: 192px;
+  border: none;
+  border-bottom: 1px solid #242321;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 190px;
+  max-height: 190px;
+  outline: none;
+  color: #000;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .15px;
+  flex: 25%;
+}
+
+.inputSmall::placeholder,
+.inputLarge::placeholder,
+.textArea::placeholder {
+  color: black;
+}
+
+.button {
+  padding-top:15px;
+  display: flex;
+  align-items: left;
 }
 
 .button:hover {
@@ -56,11 +75,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    /* margin-top: -74px;
-    margin-bottom: -269px; */
-  }
-
   .form {
     width: 100%;
   }

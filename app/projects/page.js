@@ -5,15 +5,13 @@ import photo from '../../public/photo.jpg'
 
 export default function AllProjects() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ marginTop: "-70px;", marginBottom: "-92px;", background: '#8B80E5' }}>
       <div className={styles.pageTitle}>
         <h1 className={styles.heading}>All pr<em className={styles.italic}>oje</em>cts</h1>
       </div>
-
-      {/* ------- Image section ------- */}
       <div className={styles.columnContainer}>
-        <div className={styles.link}>
-          <Link href="/projects/assignment1" >
+        <div className={styles.column1}>
+          <Link href="/projects/assignment1">
             <Image
               src={photo}
               alt="project"
@@ -23,8 +21,8 @@ export default function AllProjects() {
             </div>
           </Link>
         </div>
-        <div className={styles.link}>
-          <Link href="/projects/assignment2" >
+        <div className={styles.column2}>
+          <Link href="/projects/assignment2">
             <Image
               src={photo}
               alt="project"
@@ -34,8 +32,8 @@ export default function AllProjects() {
             </div>
           </Link>
         </div>
-        <div className={styles.link}>
-          <Link href="/projects/assignment3" >
+        <div className={styles.column2}>
+          <Link href="/projects/assignment3">
             <Image
               src={photo}
               alt="project"
@@ -47,8 +45,9 @@ export default function AllProjects() {
         </div>
       </div>
 
-      {/* ------- More projects section ------- */}
+      {/* ------- Resume section ------- */}
       <div className={styles.moreProjects}>
+        <div className={styles.subTitle}>More projects</div>
         <span className={styles.contentTitle}>
           <span className={styles.contentDesc}>Years</span>
           <span className={styles.contentDesc}>Role</span>

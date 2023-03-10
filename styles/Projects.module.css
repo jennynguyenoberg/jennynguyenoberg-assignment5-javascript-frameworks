@@ -1,20 +1,14 @@
 .container {
-  background-color: #8B80E5;
-  padding: 275px 180px;
-  margin-top: -70px;
-  margin-bottom: -92px;
+  padding: 118px;
 }
 
 .pageTitle {
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-  flex: 1;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .heading,
 .italic {
-  font-size: 50px;
+  font-size: 60px;
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
   letter-spacing: -1px;
@@ -32,14 +26,21 @@
 
 /* ------- More project section ------- */
 
+.subTitle {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  padding-bottom: 25px;
+}
+
 .moreProjects {
-  padding-top: 95px;
+  padding-top: 135px;
 }
 
 .bar {
   display: flex;
   height: 1px;
-  margin: 10px 0px;
+  margin: 10px -20px;
   background-color: #242321;
 }
 
@@ -50,7 +51,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 13px;
-  padding: 0 20px;
 }
 
 .contentYear,
