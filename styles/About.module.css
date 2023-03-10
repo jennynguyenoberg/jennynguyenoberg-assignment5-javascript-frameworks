@@ -1,4 +1,8 @@
-.container {
+.content {
+  padding: 200px;
+  padding-right: 550px;
+}
+/* .container {
   background-color: #ffffff;
   margin-top: -70px;
   margin-bottom: -100px;
@@ -28,4 +32,4 @@
     margin-top: -74px;
     margin-bottom: -269px;
   }
-}
+} */

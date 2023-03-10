@@ -1,5 +1,11 @@
 .container {
   background-color: #8B80E5;
+  padding: 180px;
+  margin-top: -70px;
+  margin-bottom: -92px;
+}
+/* .container {
+  background-color: #8B80E5;
   margin-top: -70px;
   margin-bottom: -100px;
   height: 100vh;
@@ -10,4 +16,4 @@
     margin-top: -74px;
     margin-bottom: -241px;
   }
-}
+} */

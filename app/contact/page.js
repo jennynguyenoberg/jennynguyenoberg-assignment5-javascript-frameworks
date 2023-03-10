@@ -12,6 +12,14 @@ export default function Contact() {
         <textarea className={styles.textArea} placeholder="Message" rows={6} />
         <button className={styles.button}>↳ Send message</button>
       </form>
+      <form className={styles.form}>
+        <input className={styles.inputSmall} placeholder="Username" />
+        <input className={styles.inputSmall} placeholder="Phone" />
+        <input className={styles.inputLarge} placeholder="Email" />
+        <input className={styles.inputLarge} placeholder="Subject" />
+        <textarea className={styles.textArea} placeholder="Message" rows={6} />
+        <button className={styles.button}>↳ Send message</button>
+      </form>
     </div>
   )
 }

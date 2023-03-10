@@ -11,11 +11,13 @@ export const metadata = {
 export default function Layout({ children }) {
   return (
     <html lang="en">
-      <body className={styles.background}>
-        <Navbar />
-        {children}
-        <Footer/>
-      </body>
-    </html>   
+      <div className={styles.pageContainer}>
+          <div className={styles.contentWrap}>
+            <Navbar />
+            {children}
+            <Footer />
+          </div>
+        </div>
+    </html>
   )
 }

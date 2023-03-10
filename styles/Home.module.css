@@ -3,4 +3,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -70px;
+  margin-bottom: -92px;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contentWrap {
+  flex: 1;
 }
