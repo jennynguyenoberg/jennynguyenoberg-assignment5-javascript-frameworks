@@ -1,9 +1,78 @@
 .container {
   background-color: #8B80E5;
-  padding: 180px;
+  padding: 275px 180px;
   margin-top: -70px;
   margin-bottom: -92px;
 }
+
+.pageTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  flex: 1;
+  padding-bottom: 20px;
+}
+
+.heading,
+.italic {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+  letter-spacing: -1px;
+}
+
+/* ------- Image section ------- */
+
+.columnContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* ------- More project section ------- */
+
+.moreProjects {
+  padding-top: 95px;
+}
+
+.bar {
+  display: flex;
+  height: 1px;
+  margin: 10px 0px;
+  background-color: #242321;
+}
+
+.contentProject,
+.contentTitle {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 13px;
+  padding: 0 20px;
+}
+
+.contentYear,
+.contentRole,
+.contentClient,
+.contentArrow {
+  /* max-width: 1180px; */
+  /* margin: auto; */
+  flex: 25%;
+}
+
+.contentArrow {
+  text-align: right;
+}
+
+.contentDesc {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .15px;
+  flex: 25%;
+}
+
 /* .container {
   background-color: #8B80E5;
   margin-top: -70px;
