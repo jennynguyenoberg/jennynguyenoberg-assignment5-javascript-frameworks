@@ -12,7 +12,7 @@ export default function Hero() {
       <div className={styles.columnContainer}>
         <div className={styles.column1}>
           <p className={styles.descriptionText}>
-            Designer & Web Developer based in beautiful Stockholm, Sweden.
+            Designer & Web Developer student based in beautiful Stockholm, Sweden.
             Creative at heart with a passion for the details.
           </p>
         </div>

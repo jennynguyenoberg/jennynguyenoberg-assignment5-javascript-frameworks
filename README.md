@@ -35,4 +35,4 @@ The home button should now be gone on all pages until a refresh of the page.
 ---
 
 **Design:** 
-![Image of portfolio website](https://user-images.githubusercontent.com/116844306/224488264-a5d459fd-c281-44e9-bc4d-04363a7204f1.png)
+![Image of portfolio website](https://user-images.githubusercontent.com/116844306/224489635-7501f131-e7d4-4def-8d20-ab1222d437e3.png)
