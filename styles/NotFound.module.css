@@ -1,19 +1,23 @@
-.title {
-  color: blue;
+.container {
+  height: 100vh;
+  padding: 210px 0 0 118px;
+  margin-top: -70px;
+  margin-bottom: -92px;
 }
-
-.subtitle {
-  color: brown;
+.title {
+font-size: 200px;
 }
 
 .para {
-  color: bisque;
+
 }
 
 .link a {
-  text-decoration: none;
+  text-decoration: 1px underline;
+  text-underline-offset: 3px;
 }
 
 .link a:hover {
-  color: rgb(41, 104, 51);
+  text-decoration: 1px underline;
+  text-underline-offset: 3px;
 }
