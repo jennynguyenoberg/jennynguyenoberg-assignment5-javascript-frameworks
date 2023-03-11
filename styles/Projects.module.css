@@ -81,6 +81,11 @@
   text-align: right;
 }
 
+.contentProject:hover {
+  opacity: .2;
+  cursor: pointer;
+}
+
 .contentDesc {
   font-size: 10px;
   text-transform: uppercase;
