@@ -20,9 +20,7 @@ export default function Proj2() {
         <span className={styles.contentProject}>
           <span className={styles.contentYear}>2023</span>
           <span className={styles.contentRole}>Node.js, date-fns</span>
-          <span className={styles.contentClient}>
-            <Link href='/projects'>Link &#8600;</Link>
-          </span>
+          <span className={styles.contentNoAvail}>Not available</span>
           <span className={styles.contentSocial}>
             <Link href='https://github.com/jennynguyenoberg/assignment2-javascript-frameworks'>Link &#8600;</Link>
           </span>

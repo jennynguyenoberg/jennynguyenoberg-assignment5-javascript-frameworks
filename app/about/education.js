@@ -26,13 +26,13 @@ export default function Education() {
       <span className={styles.contentProject}>
         <span className={styles.contentYear}>2008&#8212;2010</span>
         <span className={styles.contentRole}>Graphic Design</span>
-        <span className={styles.contentClient}>Berghs School of Communication</span>
+        <span className={styles.contentClient}>Berghs SoC</span>
         <span className={styles.contentArrow}>&#x261E;</span>
       </span>
       <span className={styles.contentProject}>
         <span className={styles.contentYear}>2007</span>
         <span className={styles.contentRole}>Graphic Design Introduction</span>
-        <span className={styles.contentClient}>Berghs School of Communication</span>
+        <span className={styles.contentClient}>Berghs SoC</span>
         <span className={styles.contentArrow}>&#x261E;</span>
       </span>
     </div>
