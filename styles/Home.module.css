@@ -7,12 +7,9 @@
   margin-bottom: -92px;
 }
 
-.pageContainer {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.contentWrap {
-  flex: 1;
+@media only screen and (max-width: 768px) {
+  .background {
+    margin-top: -73px;
+    margin-bottom: -320px;
+  }
 }

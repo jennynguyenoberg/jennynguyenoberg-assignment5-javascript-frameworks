@@ -35,9 +35,9 @@ export default function Navbar() {
         <button className={isOpen === false ?
           styles.hamburger : styles.hamburger + ' ' + styles.active}
           onClick={openMenu}>
-          <span className={styles.bar}></span>
-          <span className={styles.bar}></span>
-          <span className={styles.bar}></span>
+          <span className={styles.navbarButton}></span>
+          <span className={styles.navbarButton}></span>
+          <span className={styles.navbarButton}></span>
         </button>
       </nav>
     </div>

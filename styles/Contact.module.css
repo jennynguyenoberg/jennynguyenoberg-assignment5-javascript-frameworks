@@ -3,8 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  justify-content: left;
-  gap: 10px;
+  justify-content: center;
+  height: 100vh;
+  margin-top: -70px;
+  margin-bottom: -92px;
 }
 
 .pageTitle {
@@ -35,17 +37,17 @@
   border-bottom: 1px solid #242321;
   margin-bottom: 15px;
   outline: none;
+  padding-bottom: 7px;
 }
 
 .textArea {
-  padding-top:15px;
   height: 192px;
   border: none;
   border-bottom: 1px solid #242321;
   max-width: 100%;
   min-width: 100%;
-  min-height: 190px;
-  max-height: 190px;
+  min-height: 110px;
+  max-height: 110px;
   outline: none;
   color: #000;
 }
@@ -61,6 +63,7 @@
 .inputLarge::placeholder,
 .textArea::placeholder {
   color: black;
+
 }
 
 .button {
@@ -75,6 +78,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    margin-top: -73px;
+    margin-bottom: -320px;
+  }
   .form {
     width: 100%;
   }

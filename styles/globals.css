@@ -6,6 +6,13 @@
     url('../fonts/MaisonNeue-Book.woff2') format('woff2');
 }
 
+:root {
+  --purple: #8B80E5;
+  --light-blue: #B7E0E6;
+  --cargo-beige: #D4D2BD;
+  --charcoal: 242321;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +23,7 @@ html,
 body,
 body * {
   font-family: MaisonNeue-Book;
-  color: black;
+  color: var(--charcoal);
   background-color: inherit;
   font-size: 22px;
   letter-spacing: -0.5px;

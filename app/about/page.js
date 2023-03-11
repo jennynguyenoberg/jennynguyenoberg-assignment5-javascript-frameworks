@@ -2,10 +2,13 @@ import Link from 'next/link'
 import styles from '../../styles/About.module.css'
 import photo from '../../public/photo.jpg'
 import Image from 'next/image'
+import Work from './work'
+import Education from './education'
+import Info from './info'
 
 export default function About() {
   return (
-    <div className={styles.container}>
+    <div className={styles.containerAbout} style={{ marginTop: "-70px", marginBottom: "-92px", background: '#D4D2BD' }}>
       <div className={styles.heroContainer}>
         <div className={styles.content}>
           <span className={styles.title}>
@@ -30,58 +33,15 @@ export default function About() {
         </div>
         <div className={styles.content}>
           <Image
-            src={photo}
-            alt="project"
-          />
+              src={photo}
+              alt="project"
+              width={230}
+            />
         </div>
       </div>
-
-      {/* ------- Resume section ------- */}
-      <div className={styles.moreProjects}>
-        <div className={styles.subTitle}>More projects</div>
-        <span className={styles.contentTitle}>
-          <span className={styles.contentDesc}>Years</span>
-          <span className={styles.contentDesc}>Role</span>
-          <span className={styles.contentDesc}>Company</span>
-          <span className={styles.contentDesc}></span>
-        </span>
-        <span className={styles.bar}></span>
-        <span className={styles.contentProject}>
-          <span className={styles.contentYear}>2018&#8212;2019</span>
-          <span className={styles.contentRole}>Designer</span>
-          <span className={styles.contentClient}>Trygghetsbyrån</span>
-          <span className={styles.contentArrow}>&#x261E;</span>
-        </span>
-        <span className={styles.bar}></span>
-        <span className={styles.contentProject}>
-          <span className={styles.contentYear}>2018&#8212;2019</span>
-          <span className={styles.contentRole}>Designer</span>
-          <span className={styles.contentClient}>Trygghetsbyrån</span>
-          <span className={styles.contentArrow}>&#x261E;</span>
-        </span>
-        <span className={styles.bar}></span>
-        <span className={styles.contentProject}>
-          <span className={styles.contentYear}>2018&#8212;2019</span>
-          <span className={styles.contentRole}>Designer</span>
-          <span className={styles.contentClient}>Trygghetsbyrån</span>
-          <span className={styles.contentArrow}>&#x261E;</span>
-        </span>
-        <span className={styles.bar}></span>
-        <span className={styles.contentProject}>
-          <span className={styles.contentYear}>2018&#8212;2019</span>
-          <span className={styles.contentRole}>Designer</span>
-          <span className={styles.contentClient}>Trygghetsbyrån</span>
-          <span className={styles.contentArrow}>&#x261E;</span>
-        </span>
-        <span className={styles.bar}></span>
-        <span className={styles.contentProject}>
-          <span className={styles.contentYear}>2018&#8212;2019</span>
-          <span className={styles.contentRole}>Designer</span>
-          <span className={styles.contentClient}>Trygghetsbyrån</span>
-          <span className={styles.contentArrow}>&#x261E;</span>
-        </span>
-        <span className={styles.bar}></span>
-      </div>
+      <Info />
+      <Work />
+      <Education />
     </div>
   )
 }

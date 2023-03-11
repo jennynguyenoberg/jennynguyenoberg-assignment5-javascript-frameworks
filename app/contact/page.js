@@ -2,7 +2,7 @@ import styles from '../../styles/Contact.module.css'
 
 export default function Contact() {
   return (
-    <div className={styles.container} style={{ marginTop: "-70px;", marginBottom: "-92px;", background: '#B7E0E6' }}>
+    <div className={styles.container} style={{ marginTop: "-70px", marginBottom: "-92px", background: '#B7E0E6' }}>
       <div className={styles.pageTitle}>
         <h1 className={styles.heading}>Let's grab a coffee!</h1>
       </div>

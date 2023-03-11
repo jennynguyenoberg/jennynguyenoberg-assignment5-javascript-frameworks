@@ -1,7 +1,3 @@
-.container {
-  /* border-bottom: 1px solid #242321; */
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -17,7 +13,7 @@
   margin-right: 102px;
 }
 
-.bar {
+.navbarButton {
   display: block;
   width: 35px;
   height: 3px;

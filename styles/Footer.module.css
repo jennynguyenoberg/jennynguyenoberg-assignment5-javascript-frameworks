@@ -1,6 +1,54 @@
-.mainFooter {
-  padding-top: 3em;
-  position: relative;
-  bottom: 0;
+.container {
+  display: flex;
+  padding: 0px 20px;
+  line-height: 1em;
   width: 100%;
+}
+
+.linkTitle {
+  text-decoration: underline;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.columnLeft {
+  flex: 50%;
+}
+
+.columnRight {
+  flex: 50%;
+}
+
+.socials {
+  text-align: right;
+}
+
+.navLink:hover {
+  text-decoration: 1px underline;
+  text-underline-offset: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: auto;
+    flex-direction: column-reverse;
+    border-top: 1px solid #242321;
+  }
+
+  .socials,
+  .copyright {
+    text-align: center;
+    margin: 0 80px;
+  }
+
+  .socials {
+    margin: 40px 0px;
+  }
+
+  .copyright {
+    margin-bottom: 40px;
+  }
 }

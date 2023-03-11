@@ -1,17 +1,19 @@
-.container {
+.containerProjects {
   padding: 118px;
+  margin-top: -70px;
+  margin-bottom: -92px;
 }
 
 .pageTitle {
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 
-.heading,
-.italic {
+.heading {
   font-size: 60px;
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
   letter-spacing: -1px;
+  font-style: italic;
 }
 
 /* ------- Image section ------- */
@@ -24,6 +26,21 @@
   width: 100%;
 }
 
+.col {
+  font-size: 17px;
+  transition: .3s ease-in-out;
+}
+
+.col:hover {
+  display: block;
+  opacity: .2;
+}
+
+.imgTitle {
+  margin-top: -62px;
+  margin-left: 80px;
+}
+
 /* ------- More project section ------- */
 
 .subTitle {
@@ -34,7 +51,7 @@
 }
 
 .moreProjects {
-  padding-top: 135px;
+  padding: 135px 0;
 }
 
 .bar {
@@ -71,6 +88,37 @@
   flex: 25%;
 }
 
-@media screen and (max-width: 768px) {
+/* ------- Projects id section ------- */
 
+.heading2 {
+  text-transform: uppercase;
+}
+
+.pills {
+  margin-left: -5px;
+}
+
+.pillOutline {
+  margin-right: 5px;
+}
+
+.pillText {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 6px;
+  font-size: 17px;
+}
+
+.pillText2 {
+  position: absolute;
+  margin-left: 17px;
+  margin-top: 6px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  .containerProjects {
+    margin-top: -73px;
+    margin-bottom: -320px;
+  }
 }

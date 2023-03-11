@@ -1,5 +1,7 @@
-.container {
+.containerAbout {
   padding: 118px;
+  margin-top: -70px;
+  margin-bottom: -92px;
 }
 
 .heroContainer {
@@ -12,7 +14,9 @@
 
 .content {
   flex: 1;
+  margin: 95px 0 ;
 }
+
 
 .paragraph {
   margin-bottom: 25px;
@@ -33,7 +37,7 @@
 }
 
 .moreProjects {
-  padding-top: 135px;
+  padding-bottom: 85px;
 }
 
 .bar {
@@ -55,12 +59,20 @@
 .contentYear,
 .contentRole,
 .contentClient,
-.contentArrow {
+.contentArrow,
+.contentSocial {
   flex: 25%;
 }
 
 .contentArrow {
   text-align: right;
+}
+
+.button:hover,
+.contentSocial:hover,
+.contentClient:hover {
+  text-decoration: 1px underline;
+  text-underline-offset: 3px;
 }
 
 .contentDesc {
@@ -70,6 +82,21 @@
   flex: 25%;
 }
 
+/* ------- Project section ------- */
+
+.desc {
+  padding-top: 25px;
+}
+
+.brief {
+  padding: 85px 0;
+
+}
+
 @media screen and (max-width: 768px) {
+  .containerAbout {
+    margin-top: -73px;
+    margin-bottom: -320px;
+  }
 
 }
