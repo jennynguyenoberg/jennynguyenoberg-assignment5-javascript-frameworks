@@ -19,7 +19,7 @@
 
 .title,
 .italic {
-  font-size: 120px;
+  font-size: 100px;
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
   letter-spacing: -5px;
@@ -35,7 +35,7 @@
 
 .column1 {
   flex: 70%;
-  padding-right: 140px;
+  padding-right: 160px;
   letter-spacing: -2px;
 }
 
@@ -49,8 +49,8 @@
 }
 
 .descriptionText {
-  font-size: 41px;
-  line-height: 42px;
+  font-size: 31px;
+  line-height: 35px;
 }
 
 .category:hover {
