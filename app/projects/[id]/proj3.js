@@ -1,9 +1,9 @@
-import styles from '../../../styles/About.module.css'
-import Image from 'next/image'
-import photo1 from '../../../public/assign3-mobile.jpg'
-import photo2 from '../../../public/assign3-desktop.jpg'
-import Pills from './pills'
-import Link from 'next/link'
+import styles from '../../../styles/About.module.css';
+import Image from 'next/image';
+import photo1 from '../../../public/assign3-mobile.jpg';
+import photo2 from '../../../public/assign3-desktop.jpg';
+import Pills from './pills';
+import Link from 'next/link';
 
 export default function Proj3() {
   return (
@@ -74,5 +74,5 @@ export default function Proj3() {
         }}
       />
     </div>
-  )
+  );
 }

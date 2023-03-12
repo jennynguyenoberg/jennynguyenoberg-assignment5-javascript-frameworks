@@ -1,4 +1,4 @@
-import styles from '../../styles/Contact.module.css'
+import styles from '../../styles/Contact.module.css';
 
 export default function Contact() {
   return (
@@ -31,5 +31,5 @@ export default function Contact() {
         <button className={styles.button}>↳ Send message</button>
       </form>
     </div>
-  )
+  );
 }

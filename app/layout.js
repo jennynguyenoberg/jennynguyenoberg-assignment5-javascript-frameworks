@@ -1,11 +1,11 @@
-import Footer from './components/footer'
-import Navbar from './components/navbar'
-import '../styles/globals.css'
+import Footer from './components/footer';
+import Navbar from './components/navbar';
+import '../styles/globals.css';
 
 export const metadata = {
   title: 'Jenny Nguyen Öberg',
   description: 'Portfolio of Jenny Nguyen Öberg',
-}
+};
 
 export default function Layout({ children }) {
   return (
@@ -16,5 +16,5 @@ export default function Layout({ children }) {
         <Footer />
       </body>
     </html>
-  )
+  );
 }

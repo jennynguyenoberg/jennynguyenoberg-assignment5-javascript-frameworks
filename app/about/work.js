@@ -1,4 +1,4 @@
-import styles from '../../styles/About.module.css'
+import styles from '../../styles/About.module.css';
 
 export default function Work() {
   return (
@@ -54,5 +54,5 @@ export default function Work() {
         <span className={styles.contentArrow}>&#x261E;</span>
       </span>
     </div>
-  )
+  );
 }

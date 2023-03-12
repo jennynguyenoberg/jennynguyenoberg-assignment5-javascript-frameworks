@@ -1,10 +1,10 @@
-import Link from 'next/link'
-import styles from '../../styles/About.module.css'
-import photo from '../../public/photo.jpg'
-import Image from 'next/image'
-import Work from './work'
-import Education from './education'
-import Info from './info'
+import Link from 'next/link';
+import styles from '../../styles/About.module.css';
+import photo from '../../public/photo.jpg';
+import Image from 'next/image';
+import Work from './work';
+import Education from './education';
+import Info from './info';
 
 export default function About() {
   return (
@@ -44,5 +44,5 @@ export default function About() {
       <Work />
       <Education />
     </div>
-  )
+  );
 }

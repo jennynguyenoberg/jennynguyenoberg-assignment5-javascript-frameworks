@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import styles from '../../styles/NotFound.module.css'
+import Link from 'next/link';
+import styles from '../../styles/NotFound.module.css';
 
 export default function NotFoundPage() {
   return (
@@ -15,5 +15,5 @@ export default function NotFoundPage() {
         </div>
       </div>
     </>
-  )
+  );
 }

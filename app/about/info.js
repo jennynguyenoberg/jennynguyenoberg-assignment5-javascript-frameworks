@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import styles from '../../styles/About.module.css'
+import Link from 'next/link';
+import styles from '../../styles/About.module.css';
 
 export default function Info() {
   return (
@@ -31,5 +31,5 @@ export default function Info() {
         </span>
       </span>
     </div>
-  )
+  );
 }

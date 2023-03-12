@@ -1,4 +1,4 @@
-import styles from '../../styles/About.module.css'
+import styles from '../../styles/About.module.css';
 
 export default function Education() {
   return (
@@ -36,5 +36,5 @@ export default function Education() {
         <span className={styles.contentArrow}>&#x261E;</span>
       </span>
     </div>
-  )
+  );
 }

@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '../../styles/Projects.module.css'
-import photo from '../../public/pill-outline.svg'
-import MoreProjects from './moreProj'
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from '../../styles/Projects.module.css';
+import photo from '../../public/pill-outline.svg';
+import MoreProjects from './moreProj';
 
 export default function AllProjects() {
   return (
@@ -51,5 +51,5 @@ export default function AllProjects() {
       </div>
       <MoreProjects />
     </div>
-  )
+  );
 }

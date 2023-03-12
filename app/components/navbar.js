@@ -1,11 +1,11 @@
-'use client'
-import styles from '../../styles/Navbar.module.css'
-import Link from 'next/link'
-import { useState } from 'react'
+'use client';
+import styles from '../../styles/Navbar.module.css';
+import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
-  const openMenu = () => setIsOpen(!isOpen)
+  const [isOpen, setIsOpen] = useState(false);
+  const openMenu = () => setIsOpen(!isOpen);
 
   return (
     <div className={styles.container}>
@@ -51,5 +51,5 @@ export default function Navbar() {
         </button>
       </nav>
     </div>
-  )
+  );
 }

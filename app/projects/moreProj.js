@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import styles from '../../styles/Projects.module.css'
+import Link from 'next/link';
+import styles from '../../styles/Projects.module.css';
 
 export default function MoreProjects() {
   return (
@@ -45,5 +45,5 @@ export default function MoreProjects() {
       </span>
       <span className={styles.bar}></span>
     </div>
-  )
+  );
 }

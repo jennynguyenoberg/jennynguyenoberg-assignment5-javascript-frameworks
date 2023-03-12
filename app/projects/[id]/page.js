@@ -1,9 +1,9 @@
-import Project1 from './proj1'
-import Project2 from './proj2'
-import Project3 from './proj3'
-import Project4 from './proj4'
-import Project5 from './proj5'
-import styles from '../../../styles/Projects.module.css'
+import Project1 from './proj1';
+import Project2 from './proj2';
+import Project3 from './proj3';
+import Project4 from './proj4';
+import Project5 from './proj5';
+import styles from '../../../styles/Projects.module.css';
 
 export default function PorfolioProject({ params }) {
   if (params.id === 'week1') {
@@ -18,7 +18,7 @@ export default function PorfolioProject({ params }) {
         </div>
         <Project1 />
       </div>
-    )
+    );
   }
   if (params.id === 'week2') {
     return (
@@ -32,7 +32,7 @@ export default function PorfolioProject({ params }) {
         </div>
         <Project2 />
       </div>
-    )
+    );
   }
   if (params.id === 'week3') {
     return (
@@ -46,7 +46,7 @@ export default function PorfolioProject({ params }) {
         </div>
         <Project3 />
       </div>
-    )
+    );
   }
   if (params.id === 'week4') {
     return (
@@ -60,7 +60,7 @@ export default function PorfolioProject({ params }) {
         </div>
         <Project4 />
       </div>
-    )
+    );
   }
   return (
     <div
@@ -73,5 +73,5 @@ export default function PorfolioProject({ params }) {
       </div>
       <Project5 />
     </div>
-  )
+  );
 }

@@ -1,8 +1,8 @@
-import styles from '../../../styles/About.module.css'
-import Image from 'next/image'
-import photo from '../../../public/assign4.jpg'
-import Pills from './pills'
-import Link from 'next/link'
+import styles from '../../../styles/About.module.css';
+import Image from 'next/image';
+import photo from '../../../public/assign4.jpg';
+import Pills from './pills';
+import Link from 'next/link';
 
 export default function Proj4() {
   return (
@@ -63,5 +63,5 @@ export default function Proj4() {
         }}
       />
     </div>
-  )
+  );
 }
