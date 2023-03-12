@@ -7,13 +7,15 @@ export default function Pills() {
   return (
     <div className={styles.pills}>
       <span className={styles.pillText}>Design</span>
-      <Image className={styles.pillOutline}
+      <Image
+        className={styles.pillOutline}
         src={pillOutline}
         alt="portfolio"
         width={75}
       />
       <span className={styles.pillText2}>Code</span>
-      <Image className={styles.pillOutline}
+      <Image
+        className={styles.pillOutline}
         src={pillOutline}
         alt="portfolio"
         width={75}

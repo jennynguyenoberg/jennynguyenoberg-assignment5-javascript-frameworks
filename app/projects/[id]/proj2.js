@@ -22,12 +22,13 @@ export default function Proj2() {
           <span className={styles.contentRole}>Node.js, date-fns</span>
           <span className={styles.contentNoAvail}>Not available</span>
           <span className={styles.contentSocial}>
-            <Link href='https://github.com/jennynguyenoberg/assignment2-javascript-frameworks'>Link &#8600;</Link>
+            <Link href="https://github.com/jennynguyenoberg/assignment2-javascript-frameworks">
+              Link &#8600;
+            </Link>
           </span>
         </span>
         {/* <span className={styles.bar}></span> */}
       </div>
-
 
       {/* --------- Brief / Challenges / Solution --------- */}
       <div className={styles.brief}>
@@ -39,12 +40,11 @@ export default function Proj2() {
         <span className={styles.contentProject}>
           <span className={styles.contentYear}></span>
           <span className={styles.contentRole}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Molestie ac feugiat sed
-            lectus vestibulum. Faucibus interdum posuere lorem
-            ipsum dolor sit amet consectetur. Quis viverra nibh
-            cras pulvinar mattis.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie
+            ac feugiat sed lectus vestibulum. Faucibus interdum posuere lorem
+            ipsum dolor sit amet consectetur. Quis viverra nibh cras pulvinar
+            mattis.
           </span>
         </span>
         {/* <span className={styles.bar}></span> */}
@@ -53,9 +53,9 @@ export default function Proj2() {
         src={photo}
         alt="portfolio"
         style={{
-          width: "100%",
-          height: "100%",
-          margin: "0px 0px 35px 0px"
+          width: '100%',
+          height: '100%',
+          margin: '0px 0px 35px 0px',
         }}
       />
     </div>

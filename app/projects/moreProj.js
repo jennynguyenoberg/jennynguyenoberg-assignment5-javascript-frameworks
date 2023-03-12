@@ -15,7 +15,7 @@ export default function MoreProjects() {
       <span className={styles.bar}></span>
 
       {/* -------  Project alt1 ------- */}
-      <Link href='https://www.behance.net/gallery/99425505/Trygghetsbyran'>
+      <Link href="https://www.behance.net/gallery/99425505/Trygghetsbyran">
         <span className={styles.contentProject}>
           <span className={styles.contentYear}>2020</span>
           <span className={styles.contentRole}>Brand Identity</span>
@@ -26,7 +26,7 @@ export default function MoreProjects() {
       <span className={styles.bar}></span>
 
       {/* -------  Project alt2 ------- */}
-      <Link href='https://www.behance.net/gallery/99526981/Moss-Noor'>
+      <Link href="https://www.behance.net/gallery/99526981/Moss-Noor">
         <span className={styles.contentProject}>
           <span className={styles.contentYear}>2018&#8212;2019</span>
           <span className={styles.contentRole}>Packaging & Brand Identity</span>

@@ -27,15 +27,14 @@
     - The home button should now be gone on all pages until a refresh of the page. -->
 
 ## Assignment 5
+
 ### Alternative 1 - Portfolio
 
 Build a (new-isch) Portfolio site using Next.
-
----
 
 **Visit live site here:** [Portfolio](https://assignment5-javascript-frameworks.vercel.app/)
 
 ---
 
-**Design:** 
+**Design:**
 ![Image of portfolio website](https://user-images.githubusercontent.com/116844306/224489635-7501f131-e7d4-4def-8d20-ab1222d437e3.png)

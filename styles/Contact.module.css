@@ -43,7 +43,7 @@
 .label {
   font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: .15px;
+  letter-spacing: 0.15px;
   flex: 25%;
 }
 
@@ -51,11 +51,10 @@
 .inputLarge::placeholder,
 .textArea::placeholder {
   color: black;
-
 }
 
 .button {
-  padding-top:15px;
+  padding-top: 15px;
   display: flex;
   align-items: left;
 }

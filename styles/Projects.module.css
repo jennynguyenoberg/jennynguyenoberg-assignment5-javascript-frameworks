@@ -28,12 +28,12 @@
 
 .col {
   font-size: 17px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .col:hover {
   display: block;
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .imgTitle {
@@ -82,14 +82,14 @@
 }
 
 .contentProject:hover {
-  opacity: .2;
+  opacity: 0.2;
   cursor: pointer;
 }
 
 .contentDesc {
   font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: .15px;
+  letter-spacing: 0.15px;
   flex: 25%;
 }
 

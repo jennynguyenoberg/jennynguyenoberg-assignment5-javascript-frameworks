@@ -7,16 +7,16 @@
 }
 
 :root {
-  --purple: #8B80E5;
-  --light-blue: #B7E0E6;
-  --cargo-beige: #D4D2BD;
+  --purple: #8b80e5;
+  --light-blue: #b7e0e6;
+  --cargo-beige: #d4d2bd;
   --charcoal: 242321;
 }
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 html,
@@ -28,7 +28,6 @@ body * {
   font-size: 22px;
   letter-spacing: -0.5px;
   line-height: 1.18em;
-  
 }
 
 li {

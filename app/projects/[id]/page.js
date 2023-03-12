@@ -5,11 +5,13 @@ import Project4 from './proj4'
 import Project5 from './proj5'
 import styles from '../../../styles/Projects.module.css'
 
-
 export default function PorfolioProject({ params }) {
   if (params.id === 'week1') {
     return (
-      <div className={styles.containerProjects} style={{ marginTop: "-70px", marginBottom: "-92px" }}>
+      <div
+        className={styles.containerProjects}
+        style={{ marginTop: '-70px', marginBottom: '-92px' }}
+      >
         <div className={styles.pageTitle}>
           <h1 className={styles.heading2}>{params.id}</h1>
           <h2 className={styles.heading}>Introduction to React.js</h2>
@@ -20,7 +22,10 @@ export default function PorfolioProject({ params }) {
   }
   if (params.id === 'week2') {
     return (
-      <div className={styles.containerProjects} style={{ marginTop: "-70px", marginBottom: "-92px" }}>
+      <div
+        className={styles.containerProjects}
+        style={{ marginTop: '-70px', marginBottom: '-92px' }}
+      >
         <div className={styles.pageTitle}>
           <h1 className={styles.heading2}>{params.id}</h1>
           <h2 className={styles.heading}>Node, npm, Git, GitHub, DateTime</h2>
@@ -31,7 +36,10 @@ export default function PorfolioProject({ params }) {
   }
   if (params.id === 'week3') {
     return (
-      <div className={styles.containerProjects} style={{ marginTop: "-70px", marginBottom: "-92px" }}>
+      <div
+        className={styles.containerProjects}
+        style={{ marginTop: '-70px', marginBottom: '-92px' }}
+      >
         <div className={styles.pageTitle}>
           <h1 className={styles.heading2}>{params.id}</h1>
           <h2 className={styles.heading}>Build Tools, CSS, Personal Project</h2>
@@ -42,7 +50,10 @@ export default function PorfolioProject({ params }) {
   }
   if (params.id === 'week4') {
     return (
-      <div className={styles.containerProjects} style={{ marginTop: "-70px", marginBottom: "-92px" }}>
+      <div
+        className={styles.containerProjects}
+        style={{ marginTop: '-70px', marginBottom: '-92px' }}
+      >
         <div className={styles.pageTitle}>
           <h1 className={styles.heading2}>{params.id}</h1>
           <h2 className={styles.heading}>API</h2>
@@ -52,7 +63,10 @@ export default function PorfolioProject({ params }) {
     )
   }
   return (
-    <div className={styles.containerProjects} style={{ marginTop: "-70px", marginBottom: "-92px" }}>
+    <div
+      className={styles.containerProjects}
+      style={{ marginTop: '-70px', marginBottom: '-92px' }}
+    >
       <div className={styles.pageTitle}>
         <h1 className={styles.heading2}>{params.id}</h1>
         <h2 className={styles.heading}>SSR, Next.js</h2>

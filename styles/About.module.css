@@ -14,9 +14,8 @@
 
 .content {
   flex: 1;
-  margin: 95px 0 ;
+  margin: 95px 0;
 }
-
 
 .paragraph {
   margin-bottom: 25px;
@@ -80,7 +79,7 @@
 .contentDesc {
   font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: .15px;
+  letter-spacing: 0.15px;
   flex: 25%;
 }
 
@@ -92,7 +91,6 @@
 
 .brief {
   padding: 85px 0;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -100,5 +98,4 @@
     margin-top: -73px;
     margin-bottom: -320px;
   }
-
 }

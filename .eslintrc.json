@@ -1,15 +1,15 @@
 {
-  "extends": [
-      "eslint:recommended",
-      "eslint: next/core-web-vitals"
-  ],
+  "extends": ["eslint:recommended", "next/core-web-vitals"],
   "rules": {
-      "indent": ["error", 2],
-      "key-spacing": "error",
-      "keyword-spacing": "error",
-      "linebreak-style": ["error", "unix"],
-      "no-multiple-empty-lines": "error",
-      "quotes": ["warn", "single"],
-      "semi":[ "error", "always"]
+    "indent": ["warn", 2],
+    "key-spacing": "warn",
+    "keyword-spacing": "warn",
+    "linebreak-style": ["warn", "unix"],
+    "no-multiple-empty-lines": "warn",
+    "quotes": ["warn", "single"],
+    "semi": ["error", "always", { "omitLastInOneLineBlock": false }],
+    "semi-style": ["error", "last"],
+    "no-extra-semi": ["error"],
+    "semi-spacing": ["error", { "before": false, "after": true }]
   }
 }

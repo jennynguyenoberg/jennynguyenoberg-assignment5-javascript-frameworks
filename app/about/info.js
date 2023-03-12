@@ -14,14 +14,20 @@ export default function Info() {
       <span className={styles.bar}></span>
       <span className={styles.contentProject}>
         <div className={styles.contentYear}>
-          <form className={styles.form} action="mailto:jenny.nguyen_oberg@edu.cmeducations.se?subject=Hej!" method="post">
+          <form
+            className={styles.form}
+            action="mailto:jenny.nguyen_oberg@edu.cmeducations.se?subject=Hej!"
+            method="post"
+          >
             <button className={styles.button}>Send email &#8600;</button>
           </form>
         </div>
         <span className={styles.contentRole}>Designer</span>
         <span className={styles.contentClient}>+46 (0) 733 16 05 19</span>
         <span className={styles.contentSocial}>
-          <Link href='https://www.instagram.com/studio.noberg/'>studio.noberg &#8600;</Link>
+          <Link href="https://www.instagram.com/studio.noberg/">
+            studio.noberg &#8600;
+          </Link>
         </span>
       </span>
     </div>
