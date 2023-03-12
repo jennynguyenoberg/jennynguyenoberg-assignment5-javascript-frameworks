@@ -1,4 +1,4 @@
-## Assignment 5
+<!-- ## Assignment 5
 ### Alternative 1, Portfolio
 
 - [X] Build a (new-isch) Portfolio site using Next. You can reuse a lot of code from the old one you made in the previous course as well as the design you used in the previous course. Or you can make a new (simpler) one.
@@ -18,15 +18,18 @@
 - [ ] In the assignment hand-in, make sure to provide a link to the repo, a screenshot of the site, and a link to the site.
 
 ### Addition: Improve upon week 5
-- [X] Don't use any dom manipulation abilities like document.querySelector.
-- [X] Don't remove StrictMode
-- [ ] Use eslint, add a custom configuration/style-guide to extend, also add at least one rule change
+- [X] Use eslint, add a custom configuration/style-guide to extend, also add at least one rule change
 - [ ] Run all files in the app folder through prettier using npm. Add a custom prettier config with at least one setting changed. You might need a .prettierignore do not run prettier in files other than your own.
 - [ ] BONUS: Create an easter egg
     - Add a home-icon/text/button (if there isn't one already).
     - Clicking the home button should take you back to the home page unless you already are on the home page.
     - When you press the home icon/text twice on the home page the home button should wiggle and then fly away (in a speed you can see). Make sure it's two clicks/presses in a row. Not one click then going to another page and coming back and then another click. If you click somewhere else on the home page then it's fine if the next click will trigger the wiggle and disappear.
-    - The home button should now be gone on all pages until a refresh of the page.
+    - The home button should now be gone on all pages until a refresh of the page. -->
+
+## Assignment 5
+### Alternative 1 - Portfolio
+
+Build a (new-isch) Portfolio site using Next.
 
 ---
 
