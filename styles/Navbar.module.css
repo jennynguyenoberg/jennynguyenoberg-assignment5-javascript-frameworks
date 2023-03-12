@@ -1,7 +1,20 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .navbar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 22px;
 }
 
@@ -14,19 +27,26 @@
 }
 
 .navbarButton {
+  background-color: #242321;
   display: block;
-  width: 35px;
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #242321;
+  width: 35px;
 }
 
 .navMenu {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navItem {
@@ -34,21 +54,28 @@
 }
 
 .navLink:hover {
-  text-decoration: 1px underline;
+  -webkit-text-decoration: 1px underline;
+          text-decoration: 1px underline;
   text-underline-offset: 3px;
 }
 
 @media only screen and (max-width: 768px) {
   .navMenu {
-    position: fixed;
-    left: -100%;
-    top: 3.35rem;
-    flex-direction: column;
     background-color: #fff;
-    width: 100%;
+    -webkit-box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    left: -100%;
+    position: fixed;
     text-align: center;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    top: 3.35rem;
+    width: 100%;
   }
 
   .navDesc {
@@ -64,8 +91,8 @@
   }
 
   .hamburger {
-    display: block;
     cursor: pointer;
+    display: block;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -74,11 +101,13 @@
 
   .hamburger.active .bar:nth-child(1) {
     -webkit-transform: translateY(8px) rotate(45deg);
-    transform: translateY(8px) rotate(45deg);
+    -ms-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
     -webkit-transform: translateY(-8px) rotate(-45deg);
-    transform: translateY(-8px) rotate(-45deg);
+    -ms-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
   }
 }

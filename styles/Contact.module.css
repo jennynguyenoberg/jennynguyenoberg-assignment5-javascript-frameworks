@@ -1,50 +1,89 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .container {
-  padding: 118px;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100vh;
-  margin-top: -70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: -92px;
+  margin-top: -70px;
+  padding: 118px;
 }
 
 /* ------- Form section ------- */
 
 .form {
-  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   overflow: hidden;
+  width: 50%;
 }
 
 .inputSmall,
 .inputLarge {
-  height: 50px;
   border: none;
   border-bottom: 1px solid #242321;
+  height: 50px;
   margin-bottom: 15px;
   outline: none;
   padding-bottom: 7px;
 }
 
 .textArea {
-  height: 192px;
   border: none;
   border-bottom: 1px solid #242321;
-  max-width: 100%;
-  min-width: 100%;
-  min-height: 110px;
-  max-height: 110px;
-  outline: none;
   color: #000;
+  height: 192px;
+  max-height: 110px;
+  max-width: 100%;
+  min-height: 110px;
+  min-width: 100%;
+  outline: none;
 }
 
 .label {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
   font-size: 10px;
-  text-transform: uppercase;
   letter-spacing: 0.15px;
-  flex: 25%;
+  text-transform: uppercase;
+}
+
+.inputSmall::-webkit-input-placeholder, .inputLarge::-webkit-input-placeholder, .textArea::-webkit-input-placeholder {
+  color: black;
+}
+
+.inputSmall::-moz-placeholder, .inputLarge::-moz-placeholder, .textArea::-moz-placeholder {
+  color: black;
+}
+
+.inputSmall:-ms-input-placeholder, .inputLarge:-ms-input-placeholder, .textArea:-ms-input-placeholder {
+  color: black;
+}
+
+.inputSmall::-ms-input-placeholder, .inputLarge::-ms-input-placeholder, .textArea::-ms-input-placeholder {
+  color: black;
 }
 
 .inputSmall::placeholder,
@@ -54,21 +93,27 @@
 }
 
 .button {
-  padding-top: 15px;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: left;
+  padding-top: 15px;
 }
 
 .button:hover {
-  text-decoration: 1px underline;
+  -webkit-text-decoration: 1px underline;
+          text-decoration: 1px underline;
   text-underline-offset: 3px;
 }
 
 @media screen and (max-width: 768px) {
   .container {
-    margin-top: -73px;
     margin-bottom: -320px;
+    margin-top: -73px;
   }
+  
   .form {
     width: 100%;
   }

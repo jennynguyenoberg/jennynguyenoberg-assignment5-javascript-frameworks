@@ -1,7 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  padding: 0px 20px;
   line-height: 1em;
+  padding: 0px 20px;
   width: 100%;
 }
 
@@ -10,16 +19,24 @@
 }
 
 .link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
 }
 
 .columnLeft {
-  flex: 50%;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
 }
 
 .columnRight {
-  flex: 50%;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
 }
 
 .socials {
@@ -27,21 +44,25 @@
 }
 
 .navLink:hover {
-  text-decoration: 1px underline;
+  -webkit-text-decoration: 1px underline;
+          text-decoration: 1px underline;
   text-underline-offset: 3px;
 }
 
 @media screen and (max-width: 768px) {
   .container {
-    height: auto;
-    flex-direction: column-reverse;
     border-top: 1px solid #242321;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 
   .socials,
   .copyright {
-    text-align: center;
     margin: 0 80px;
+    text-align: center;
   }
 
   .socials {

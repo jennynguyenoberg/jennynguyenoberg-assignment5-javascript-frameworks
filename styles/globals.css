@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 
 @font-face {
@@ -7,27 +14,28 @@
 }
 
 :root {
-  --purple: #8b80e5;
-  --light-blue: #b7e0e6;
   --cargo-beige: #d4d2bd;
   --charcoal: #242321;
+  --light-blue: #b7e0e6;
+  --purple: #8b80e5;
 }
 
 * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html,
 body,
 body * {
-  font-family: MaisonNeue-Book;
-  color: var(--charcoal);
   background-color: inherit;
+  color: var(--charcoal);
+  font-family: MaisonNeue-Book;
   font-size: 22px;
-  letter-spacing: -0.5px;
   line-height: 1.18em;
+  letter-spacing: -0.5px;
 }
 
 li {
