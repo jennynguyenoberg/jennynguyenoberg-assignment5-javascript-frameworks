@@ -1,10 +1,15 @@
 {
   "extends": [
-    "eslint: recommended",
-    "eslint: next/core-web-vitals"
-  ]
-  
-  // "rules": 
-  //   "semi": ["error", "never"],
-  //   "quotes": ["error", "single"]
+      "eslint:recommended",
+      "eslint: next/core-web-vitals"
+  ],
+  "rules": {
+      "indent": ["error", 2],
+      "key-spacing": "error",
+      "keyword-spacing": "error",
+      "linebreak-style": ["error", "unix"],
+      "no-multiple-empty-lines": "error",
+      "quotes": ["warn", "single"],
+      "semi":[ "error", "always"]
+  }
 }
