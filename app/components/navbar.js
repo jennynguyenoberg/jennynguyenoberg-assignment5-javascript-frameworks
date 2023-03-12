@@ -2,6 +2,7 @@
 import styles from '../../styles/Navbar.module.css';
 import Link from 'next/link';
 import { useState } from 'react';
+import Homebutton from './homeButton';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ export default function Navbar() {
     <div className={styles.container}>
       <nav className={styles.navbar}>
         <Link href="/">
-          <span className={styles.navLogo}>Jenny Nguyen Öberg</span>
+          <Homebutton />
         </Link>
         <span className={styles.navDesc}>Designer & Developer</span>
         <ul
