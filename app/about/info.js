@@ -22,8 +22,12 @@ export default function Info() {
             <button className={styles.button}>Send email &#8600;</button>
           </form>
         </div>
-        <span className={styles.contentRole}>Designer</span>
-        <span className={styles.contentClient}>+46 (0) 733 16 05 19</span>
+        <span className={styles.contentRole}>+46 (0) 733 16 05 19</span>
+        <span className={styles.contentClient}>
+          <Link href="https://www.linkedin.com/in/jennynguyenoberg">
+            jennynguyenoberg &#8600;
+          </Link>
+        </span>
         <span className={styles.contentSocial}>
           <Link href="https://www.instagram.com/studio.noberg/">
             studio.noberg &#8600;
