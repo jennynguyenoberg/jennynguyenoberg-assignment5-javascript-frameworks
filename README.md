@@ -36,5 +36,11 @@ Build a (new-isch) Portfolio site using Next.
 
 ---
 
-**Design:**
+**Home page**
 ![Image of portfolio website](https://user-images.githubusercontent.com/116844306/224489635-7501f131-e7d4-4def-8d20-ab1222d437e3.png)
+
+**Project page**
+![Image of portfolio website](https://user-images.githubusercontent.com/116844306/225433566-8b81c950-86b7-4c9e-bf61-4963c0702293.png)
+
+**Contact page**
+![Image of portfolio website](https://user-images.githubusercontent.com/116844306/225433804-09d83048-5782-4952-95b1-0a1b605af26c.png)
